@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  assetPrefix: '/leaderreads/', // Replace 'leaderreads' with your repo name if different
-  basePath: '/leaderreads', // Replace 'leaderreads' with your repo name if different
+  assetPrefix: '/leaderreads', // Removed trailing slash
+  basePath: '/leaderreads',
   images: {
     unoptimized: true,
   },
