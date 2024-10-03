@@ -1,10 +1,6 @@
-import { useEffect } from 'react'
+import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    import('../styles/globals.css')
-  }, [])
-
   return <Component {...pageProps} />
 }
 
