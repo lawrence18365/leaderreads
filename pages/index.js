@@ -63,12 +63,12 @@ export default function LandingPage() {
                     </div>
                     <div className="flex justify-end">
                       <div className="bg-gray-700 rounded-lg p-3 max-w-[80%]">
-                        <p className="text-sm">That's amazing! What makes it so special?</p>
+                        <p className="text-sm">That&apos;s amazing! What makes it so special?</p>
                       </div>
                     </div>
                     <div className="flex justify-start">
                       <div className="bg-blue-600 rounded-lg p-3 max-w-[80%]">
-                        <p className="text-sm">It's not just books - it's a premium experience with curated insights from top founders and an incredible community of like-minded entrepreneurs!</p>
+                        <p className="text-sm">It&apos;s not just books - it&apos;s a premium experience with curated insights from top founders and an incredible community of like-minded entrepreneurs!</p>
                       </div>
                     </div>
                     <div className="flex justify-end">
@@ -78,7 +78,7 @@ export default function LandingPage() {
                     </div>
                     <div className="flex justify-start">
                       <div className="bg-blue-600 rounded-lg p-3 max-w-[80%]">
-                        <p className="text-sm">The ROI is incredible. I've already seen a 30% increase in my team's productivity since joining.</p>
+                        <p className="text-sm">The ROI is incredible. I&apos;ve already seen a 30% increase in my team&apos;s productivity since joining.</p>
                       </div>
                     </div>
                   </div>
@@ -91,13 +91,13 @@ export default function LandingPage() {
         <section className="w-full py-12 md:py-24 bg-gray-800" id="featured-founders">
           <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-              This Month's Featured Visionary
+              This Month&apos;s Featured Visionary
             </h2>
             <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16">
               <div className="flex-1 relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full blur-2xl opacity-30"></div>
                 <Image
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/api/placeholder/400/400"
                   alt="Featured Founder"
                   width={400}
                   height={400}
@@ -107,10 +107,10 @@ export default function LandingPage() {
               <div className="flex-1 text-center md:text-left">
                 <h3 className="text-3xl font-bold mb-4 text-white">Elon Musk</h3>
                 <p className="text-xl text-gray-300 mb-6 leading-relaxed">
-                  Dive into the mind of the visionary behind Tesla, SpaceX, and more. Elon's reading list spans from sci-fi classics that inspired his innovations to groundbreaking physics texts that shaped his understanding of the universe.
+                  Dive into the mind of the visionary behind Tesla, SpaceX, and more. Elon&apos;s reading list spans from sci-fi classics that inspired his innovations to groundbreaking physics texts that shaped his understanding of the universe.
                 </p>
                 <Button className="bg-purple-600 hover:bg-purple-700 text-white text-lg px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105" size="lg">
-                  Unlock Elon's Reading List
+                  Unlock Elon&apos;s Reading List
                   <ChevronRight className="ml-2 h-6 w-6" />
                 </Button>
               </div>
@@ -131,7 +131,7 @@ export default function LandingPage() {
                   </div>
                   <h3 className="text-2xl font-bold mb-4 text-white">Curated Wisdom</h3>
                   <p className="text-gray-300 text-lg leading-relaxed">
-                    Receive carefully chosen books that have shaped the minds of today's most successful entrepreneurs and visionaries.
+                    Receive carefully chosen books that have shaped the minds of today&apos;s most successful entrepreneurs and visionaries.
                   </p>
                 </CardContent>
               </Card>
@@ -253,7 +253,7 @@ export default function LandingPage() {
                 <CardContent className="p-6">
                   <div className="flex items-center mb-4">
                     <Image
-                      src="/placeholder.svg?height=60&width=60"
+                      src="/api/placeholder/60/60"
                       alt="Sarah J."
                       width={60}
                       height={60}
@@ -265,7 +265,7 @@ export default function LandingPage() {
                     </div>
                   </div>
                   <p className="text-gray-300 mb-4 text-lg leading-relaxed">
-                    "LeaderReads has been the catalyst for my company's exponential growth. The curated insights and vibrant community have shaped my leadership style and business strategies in ways I never imagined. Our revenue has grown by 200% since I joined!"
+                    &quot;LeaderReads has been the catalyst for my company&apos;s exponential growth. The curated insights and vibrant community have shaped my leadership style and business strategies in ways I never imagined. Our revenue has grown by 200% since I joined!&quot;
                   </p>
                   <div className="flex">
                     <Star className="text-yellow-400 w-5 h-5" />
@@ -280,7 +280,7 @@ export default function LandingPage() {
                 <CardContent className="p-6">
                   <div className="flex items-center mb-4">
                     <Image
-                      src="/placeholder.svg?height=60&width=60"
+                      src="/api/placeholder/60/60"
                       alt="Michael T."
                       width={60}
                       height={60}
@@ -292,7 +292,7 @@ export default function LandingPage() {
                     </div>
                   </div>
                   <p className="text-gray-300 mb-4 text-lg leading-relaxed">
-                    "As a busy entrepreneur, LeaderReads is my secret weapon. The carefully selected books and exclusive insights have given me a competitive edge, while the community connections have opened doors I never knew existed. My startup secured $2M in funding thanks to a connection I made here!"
+                    &quot;As a busy entrepreneur, LeaderReads is my secret weapon. The carefully selected books and exclusive insights have given me a competitive edge, while the community connections have opened doors I never knew existed. My startup secured $2M in funding thanks to a connection I made here!&quot;
                   </p>
                   <div className="flex">
                     <Star className="text-yellow-400 w-5 h-5" />
@@ -307,7 +307,7 @@ export default function LandingPage() {
                 <CardContent className="p-6">
                   <div className="flex items-center mb-4">
                     <Image
-                      src="/placeholder.svg?height=60&width=60"
+                      src="/api/placeholder/60/60"
                       alt="Emily R."
                       width={60}
                       height={60}
@@ -319,7 +319,7 @@ export default function LandingPage() {
                     </div>
                   </div>
                   <p className="text-gray-300 mb-4 text-lg leading-relaxed">
-                    "The insights I've gained from LeaderReads have revolutionized my team's performance. It's not just about the books; it's about the transformative power of shared knowledge and a supportive community of visionaries. Our marketing ROI has increased by 150% since implementing strategies I learned here!"
+                    &quot;The insights I&apos;ve gained from LeaderReads have revolutionized my team&apos;s performance. It&apos;s not just about the books; it&apos;s about the transformative power of shared knowledge and a supportive community of visionaries. Our marketing ROI has increased by 150% since implementing strategies I learned here!&quot;
                   </p>
                   <div className="flex">
                     <Star className="text-yellow-400 w-5 h-5" />
@@ -340,7 +340,7 @@ export default function LandingPage() {
               Join the LeaderReads Revolution
             </h2>
             <p className="text-xl text-white mb-8 max-w-2xl mx-auto leading-relaxed">
-              Don't miss out on the opportunity to transform your leadership skills and connect with visionary entrepreneurs. Start your journey to extraordinary success today!
+              Don&apos;t miss out on the opportunity to transform your leadership skills and connect with visionary entrepreneurs. Start your journey to extraordinary success today!
             </p>
             <Button className="bg-purple-600 hover:bg-purple-700 text-white text-lg px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105" size="lg">
               Start Your 7-Day Free Trial
@@ -363,7 +363,7 @@ export default function LandingPage() {
               <div className="flex-1 grid grid-cols-2 gap-4 md:gap-8">
                 <div className="flex items-center justify-center bg-gray-800 p-4 rounded-lg">
                   <Image
-                    src="/placeholder.svg?height=80&width=180"
+                    src="/api/placeholder/180/80"
                     alt="Company Logo 1"
                     width={180}
                     height={80}
@@ -372,7 +372,7 @@ export default function LandingPage() {
                 </div>
                 <div className="flex items-center justify-center bg-gray-800 p-4 rounded-lg">
                   <Image
-                    src="/placeholder.svg?height=80&width=180"
+                    src="/api/placeholder/180/80"
                     alt="Company Logo 2"
                     width={180}
                     height={80}
@@ -381,7 +381,7 @@ export default function LandingPage() {
                 </div>
                 <div className="flex items-center justify-center bg-gray-800 p-4 rounded-lg">
                   <Image
-                    src="/placeholder.svg?height=80&width=180"
+                    src="/api/placeholder/180/80"
                     alt="Company Logo 3"
                     width={180}
                     height={80}
@@ -390,7 +390,7 @@ export default function LandingPage() {
                 </div>
                 <div className="flex items-center justify-center bg-gray-800 p-4 rounded-lg">
                   <Image
-                    src="/placeholder.svg?height=80&width=180"
+                    src="/api/placeholder/180/80"
                     alt="Company Logo 4"
                     width={180}
                     height={80}
