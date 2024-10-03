@@ -1,6 +1,10 @@
-import '../styles/globals.css'  // Adjust the path as necessary
+import { useEffect } from 'react'
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    import('../styles/globals.css')
+  }, [])
+
   return <Component {...pageProps} />
 }
 
