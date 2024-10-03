@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && touch out/.nojekyll",
+    "build": "next build && next export && touch out/.nojekyll",
     "start": "next start",
     "lint": "next lint"
   },
@@ -19,6 +19,7 @@
     "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.16",
     "eslint": "^8",
     "eslint-config-next": "14.2.14",
     "postcss": "^8",
