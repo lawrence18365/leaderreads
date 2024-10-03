@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
   output: 'export',
-  assetPrefix: '/leaderreads', // Removed trailing slash
-  basePath: '/leaderreads',
   images: {
     unoptimized: true,
   },
-  trailingSlash: true,
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/your-repo-name' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/your-repo-name' : '',
 }
 
 module.exports = nextConfig
