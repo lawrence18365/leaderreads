@@ -4,10 +4,11 @@ const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
-    domains: ['leaderreads.info'], // Remove 'www.' if you're not using it
+    domains: ['leaderreads.info'],
   },
-  // Add this line:
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/' : '',
+  assetPrefix: '/leaderreads/', // Replace 'leaderreads' with your repo name if different
+  basePath: '/leaderreads', // Replace 'leaderreads' with your repo name if different
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
